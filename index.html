@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- fontawesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <title>Ecommerce-Project-2</title>
+    </head>
+
+    <body>
+        <!-- header top section starts-->
+        <section class="header-top">
+            <div class="container">
+                <div class="d-flex justify-content-between justify-content-md-center align-items-center">
+                    <div class="col-md-3 d-flex align-items-center order-1">
+                        <img class="img-fluid logo" src="img/group.png" alt="">
+                        <img class="img-fluid logo-text ps-md-2" src="img/bengal-shop.png" alt="">
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center search-bar order-3 order-md-2">
+                        <i class="fa-solid fa-magnifying-glass search-bar-icon "></i>
+                        <input class="form-control me-2 rounded-pill search-bar-input" type="search" placeholder="Search here...." aria-label="Search">
+                        <button class="btn btn-outline-success rounded-pill search-button" type="submit">Search</button>
+                    </div>
+                    <div class="col-md-3 d-flex align-items-center justify-content-md-between justify-content-lg-center order-2 order-md-3">
+                        <div class="cart-icon d-flex align-items-center p-lg-0">
+                            <i class="fa-solid fa-cart-shopping "></i>
+                            <sup class="m-lg-0"><span>3</span></sup>
+                        </div>
+                        <div class="header-user-account d-flex align-items-center ps-lg-5">
+                            <span class="account-icon d-flex justify-content-center align-items-center">
+                                <i class="fa-regular fa-user account-icon-svg"></i></span>
+                            <span class="d-none d-lg-block account-text">Account</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- header top section ends-->
+
+        <!-- header bottom section starts-->
+        <section class="header-bottom mt-2">
+            <div class="container">
+                <div class="d-flex align-items-baseline align-items-md-start justify-content-md-between"> 
+                    <div class="pt-2">
+                        <button type="button" class="btn rounded-pill all-categories-button d-flex align-items-center justify-content-between justify-content-md-center"><img src="img/menu-right.png" alt=""> <span class="text-center">All Categories</span><i class="fa-solid fa-chevron-down chevron-down"></i></button>
+                    </div>
+                    <nav class="navbar navbar-expand-lg menubar ms-auto">
+                        <div class="container-fluid d-flex justify-content-end p-0">
+                            <button class="navbar-toggler pr-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+                            <i class="fa-solid fa-bars toggle-icon ms-md-auto"></i>
+                            </button>
+                            <div class="collapse navbar-collapse mt-2 mr-sm-0" id="navbarSupportedContent">
+                                <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-end">
+                                    <li class="nav-item d-flex justify-content-end px-lg-4">
+                                        <a class="nav-link fw-bold menu-link" aria-current="page" href="#">HOME</a>
+                                    </li>
+                                    <li class="nav-item d-flex justify-content-end px-lg-4">
+                                        <a class="nav-link fw-bold menu-link" href="#">STORE</a>
+                                    </li>
+                                    <li class="nav-item d-flex justify-content-end px-lg-4">
+                                        <a class="nav-link fw-bold menu-link" href="#">OFFER</a>
+                                    </li>
+                                    <li class="nav-item dropdown d-flex justify-content-end px-lg-4">
+                                        <a class="nav-link dropdown-toggle fw-bold menu-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            PAGES
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item d-flex justify-content-end px-lg-4">
+                                        <a class="nav-link fw-bold menu-link" href="#">BLOG</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!-- header bottom section ends-->
+
+        <!-- header banner section starts -->
+        <section class="banner-section">
+            <div id="carouselExampleIndicators" class="carousel slide mt-3" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <!-- banner section -->
+                <div class="container carousel-inner">
+                    <div class="carousel-item active header-banner d-flex">
+                        <div class="header-banner-left w-100 d-flex justify-content-center flex-column">
+                            <p class="save-off mb-3">Save up 30% off</p>
+                            <h1 class="bengal-vegetable fw-bold mb-4">Bengal Vegetable Farm  Organic 100%</h1>
+                            <p class="mb-3 header-banner-left-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula faucibus massa est elit maecenas.</p>
+                            <a type="button" class="btn btn-sm rounded-pill header-shop-now mt-3 py-2 w-md-75" href="#">Shop Now</a>
+                        </div>
+                        <div class="header-banner-right d-none d-md-flex justify-content-center align-items-md-center align-items-lg-end">
+                            <img class="img-fluid banner-img" src="img/fococlipping.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- header banner section ends -->
+
+        <!-- services section starts -->
+        <section class="">
+            <div class="container">
+                <div class="services-wrapper d-md-flex justify-content-between py-5">
+                    <div class="services d-flex justify-content-center mb-3">
+                        <img class="img-fluid services-img" src="img/call-center 1.png" alt="">
+                        <div class="d-flex flex-column justify-content-center ps-3">
+                            <p class="services-title">24 Customer Support</p>
+                            <p class="services-detail">Contact us 24 hours</p>
+                        </div>
+                    </div>
+                    <div class="services d-flex justify-content-center mb-3">
+                        <img class="img-fluid services-img" src="img/call-center 2.png" alt="">
+                        <div class="d-flex flex-column justify-content-center ps-3">
+                            <p class="services-title">Authentic Products</p>
+                            <p class="services-detail">Contact us 24 hours</p>
+                        </div>
+                    </div>
+                    <div class="services d-flex justify-content-center mb-3">
+                        <img class="img-fluid services-img" src="img/call-center 3.png" alt="">
+                        <div class="d-flex flex-column justify-content-center ps-3">
+                            <p class="services-title">Secure Payment</p>
+                            <p class="services-detail">Contact us 24 hours</p>
+                        </div>
+                    </div>
+                    <div class="services d-flex justify-content-center">
+                        <img class="img-fluid services-img" src="img/call-center 4.png" alt="">
+                        <div class="d-flex flex-column justify-content-center ps-3">
+                            <p class="services-title">Best Prices & Offers</p>
+                            <p class="services-detail">Contact us 24 hours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services section ends-->
+
+        <!-- Offers Section Starts -->
+        <section class="offer">
+            <div class="container">
+                <div class="offer-wrapper">
+                    <div>
+                        <h1>Offers</h1>
+                        <div class="d-flex">
+                            <div class="chevron rounded-circle me-2"><i class="chevron-icon fa-solid fa-chevron-left"></i></div>
+                            <div class="chevron rounded-circle"><i class="chevron-icon fa-solid fa-chevron-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Offers Section Ends -->
+
+        <!-- footer section starts -->
+        <section class="footer">
+            <div class="container-fluid">
+                <div class="footer-wrapper d-flex align-items-center py-5">
+                    <div class="col-12 col-md-6 text-center">
+                        <div class="d-flex align-items-center justify-content-center mb-4 footer-left">
+                            <img class="img-fluid pe-3" src="img/group.png" alt="">
+                            <img class="img-fluid" src="img/bengal-shop.png" alt="">                        
+                        </div>
+                        <p class="company-description mb-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla diam ornare nam est gravida. Netus viverra rhoncus sit magna sapien ac eget parturient id. Est luctus dapibus quam aliquam in nisl turpis. Elit et dictum lacus morbi nec accumsan a in.
+                        </p>
+                        <div class="social-icons">
+                            <i class="fa-brands fa-facebook icon text-primary"></i>
+                            <i class="fa-brands fa-whatsapp icon text-success"></i>
+                            <i class="fa-brands fa-instagram icon" style="color: #FF9549"></i>
+                            <i class="fa-brands fa-twitter text-primary"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-none d-md-flex justify-content-center footer-right">
+                        <div class="text-center footer-menu">
+                            <h1 class="title mb-4 fs-5">Menu</h3>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Store</a></li>
+                                <li><a href="#">Offer</a></li>
+                                <li><a href="#">Pages</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <h1 class="title mb-4 fs-5">Categories</h3>
+                            <ul>
+                                <li><a href="#">Account</a></li>
+                                <li><a href="#">Checkout</a></li>
+                                <li><a href="#">Login</a></li>
+                                <li><a href="#">Register</a></li>
+                                <li><a href="#">Shopping</a></li>
+                                <li><a href="#">Widget</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer section ends -->
+        
+        
+
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        
+        <!-- fontawesome JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>
+
+</html>

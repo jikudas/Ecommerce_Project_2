@@ -1,0 +1,578 @@
+:root {
+    --header-color: #27AE60;
+    --menu-color: #195e24;
+    --footer-color: #EBFAEB;
+}
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Common Codes */
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--menu-color);
+}
+
+.chevron {
+    background-color: #E7D5FF;
+    padding: 0.8rem 1rem;
+}
+
+.chevron-icon {
+    color: #999999;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    font-size: .8rem;
+}
+
+
+/* header top code */
+
+.header-top {
+    margin-top: 2rem;
+}
+
+.logo {
+    width: 3rem;
+}
+
+.logo-text {
+    height: 1.3rem;
+}
+
+.search-bar {
+    position: relative;
+    padding-right: 1rem;
+}
+.search-bar img {
+    position: absolute;
+    top: 0.75rem;
+    left: 6rem;
+    width: 1rem;
+}
+
+.search-bar input {
+    padding-left: 2.2rem;
+    width: 25rem;
+    margin-left: 5rem;
+}
+
+.search-bar button {
+    position: absolute;
+    top: 0;
+    right: .59rem;
+    padding: .4rem 1.3rem;
+    margin-right: 4.3rem;
+}
+
+.account-icon {
+    background: url(../img/rectangle.png) no-repeat center center/cover;
+    width: 2rem;
+    height: 2rem;
+    margin-right: .5rem;
+}
+
+.cart-icon {
+    padding-right: 2.5rem;
+}
+
+.cart-icon svg {
+    font-size: 1.7rem;
+    color: var(--header-color);
+}
+
+.cart-icon sup {
+    background: forestgreen;
+    border-radius: 50%;
+    padding: 0.1rem 0.3rem;
+    color: aliceblue;
+    font-size: .8rem;
+}
+
+.search-bar-input {
+    border: 1px solid var(--header-color);
+}
+
+.search-button {
+    border-bottom: none;
+}
+
+
+/* header bottom code */
+
+.all-categories-button {
+    font-size: 1rem;
+    background-color: transparent;
+    color: #195e24;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 0.4rem 2rem;
+}
+
+.all-categories-button:hover {
+    background-color: var(--header-color);
+    color: white;
+}
+
+.chevron-down {
+    height: 0.8rem;
+    width: .8rem;
+    padding-left: 0.3rem;
+    padding-top: 0.1rem;
+}
+
+.menu-link {
+    color: var(--menu-color);
+}
+
+
+/* header banner */
+
+.header-banner {
+    background: url('../img/hero_bg.png') no-repeat center center/cover;
+    min-height: 75vh;
+    max-height: 75vh;
+}
+
+.header-banner-left {
+    padding-left: 5rem;
+    padding-right: 3.2rem;
+    text-align: center;
+}
+
+.save-off {
+    color: var(--menu-color);
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.bengal-vegetable {
+    font-size: 2rem;
+}
+
+.header-banner-left-lorem {
+    letter-spacing: .3px;
+    padding-right: 5rem;
+}
+
+.header-shop-now {
+    /* max-width: 25%; */
+    text-decoration: none;
+    background-color: var(--header-color);
+    color: white;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.header-shop-now:hover {
+    background-color: transparent;
+    color: var(--header-color);
+    border-color: 1px solid var(--header-color);
+    transition: background-color .5s linear;
+}
+
+.header-banner-right {
+    
+}
+
+.banner-img {
+    height: 27rem;
+}
+
+/* services css */
+
+.services {
+    background-color: #F0FFFF;
+    padding: 3rem;
+}
+
+.services-img {
+    height: 4.5rem;
+}
+
+.services-title {
+    font-size: 1.2rem;
+    letter-spacing: 0.3px;
+    padding-bottom: 0.5rem;
+}
+
+.services-detail {
+    font-weight: lighter;
+    color: gray;
+}
+
+/* footer css */
+
+.footer {
+    background-color: var(--footer-color);
+}
+
+.company-description {
+    line-height: 1.2rem;
+    padding: 0 .8rem;
+}
+
+.social-icons {
+    font-size: 1.5rem;
+}
+
+.icon {
+    padding-right: 1.2rem;
+}
+
+.footer-menu {
+    padding-right: 5rem;
+}
+
+.footer-right div ul li {
+    margin-bottom: .5rem;
+}
+
+.footer-right div ul li a {
+    text-decoration: none;
+    color: var(--menu-color);
+    font-size: 1.1rem;
+}
+
+
+/* =======================
+Media Queries
+======================= */
+@media (min-width: 1200px) {
+    .account-text {
+        font-size: 1.3rem;
+        color: var(--menu-color);
+    }
+
+    .menubar {
+        margin-right: 13rem;
+    }
+
+    .all-categories-button {    
+        width: 15rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .header-banner-left {
+        max-width: 55%;
+        text-align: left;
+    }
+    
+    .header-shop-now {
+        max-width: 35%;
+        margin: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .account-text {
+        font-size: 1.3rem;
+        color: var(--menu-color);
+    }
+    
+    .menubar {
+        margin-right: 5rem;
+    }
+  
+    .search-bar button {
+    margin-right: .9rem;
+    }
+    .cart-icon img {
+    padding-left: 7rem;
+    }
+
+    .cart-icon sup {
+        margin-right: 3rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-banner-left {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .search-bar button {
+        margin-right: .9rem;
+    }
+
+    .cart-icon {
+        padding-left: 2.5rem;
+    }
+
+    .header-bottom .container {
+        padding-right: 0;
+    }
+
+    .banner-img {
+        max-height: 75%;
+    }
+
+    .header-banner-left {
+        max-width: 55%;
+    }
+
+    .save-off {
+        font-size: 1.7rem;
+    }
+
+    .bengal-vegetable {
+        font-size: 2.4rem;
+    }
+
+    .header-banner-left-lorem {
+        padding: 0 1rem;
+        font-size: 1.1rem;
+    }
+
+    .all-categories-button {    
+        width: 15rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .search-bar-icon {
+        position: absolute;
+        top: 0.8rem;
+        left: 6rem;
+    }
+
+    .account-icon {
+        width: 3rem;
+        height: 3rem;
+        color: var(--header-color);
+    }
+
+    .toggle-icon {
+        color: var(--header-color);
+        font-size: 2rem;
+    }
+
+    .cart-icon sup {
+        width: 1.5rem;
+        height: 1.5rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .header-top.container div {
+        display: flex;
+        justify-content: between;
+    }
+    .logo-text {
+        display: none;
+    }
+
+    .header-user-account span:nth-of-type(2) {
+        display: none;
+    }
+
+    .search-bar input {
+        display: none;
+    }
+    .search-bar button {
+        display: none;
+    }
+
+    .search-bar img {
+        position: static;
+    }
+
+    .cart-icon sup {
+        width: 1.5rem;
+        height: 1.5rem;
+        text-align: center;
+    }
+
+    .cart-icon sup span {
+        font-size: 1.2rem
+    }
+
+    .account-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .search-bar-icon {
+        font-size: 1.5rem;
+        color: var(--header-color);
+    }
+
+    .account-icon-svg {
+        font-size: 1.5rem;
+        color: var(--header-color);
+    }
+
+    .toggle-icon {
+        color: var(--header-color);
+        font-size: 2rem;
+    }
+
+    .bengal-vegetable {
+        font-size: 2rem;
+    }
+
+    .save-off {
+        font-size: 2rem;
+    }
+
+    .bengal-vegetable {
+        font-size: 3rem;
+        line-height: 3.4rem;
+    }
+
+    .header-banner-left-lorem {
+        font-size: 1.1rem;
+        padding-right: 0rem;
+    }
+    
+    .header-shop-now {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 575px) {
+    #navbarSupportedContent {
+        margin-right: .6rem;
+    }
+}
